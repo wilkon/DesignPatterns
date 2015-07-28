@@ -1,4 +1,4 @@
-package singleton.bullpugh;
+package com.singleton.impl.bullpugh;
 
 /**
  * Created by will on 7/28/15.

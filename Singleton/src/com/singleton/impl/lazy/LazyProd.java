@@ -1,4 +1,4 @@
-package singleton.lazy;
+package com.singleton.impl.lazy;
 
 /**
  * Created by will on 7/28/15.

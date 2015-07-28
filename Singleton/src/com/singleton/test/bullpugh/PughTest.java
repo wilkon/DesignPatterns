@@ -12,7 +12,6 @@ public class PughTest {
     @Test
     public void isSingleInstance(){
 
-
     }
 
 }

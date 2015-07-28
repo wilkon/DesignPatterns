@@ -8,11 +8,13 @@ import com.factory.entities.impl.Server;
  * Created by will on 7/28/15.
  */
 public class ComputerFactory {
-    public Computer getComputer(String type){
-        if(type.equals("pc"))
-            return new Pc("16gig", "i7");
-        else if(type.equals("server"))
-            return new Server("100Gig", "j4");
-        else return null;
+    public Computer getComputer(String type) {
+        switch (type){
+            case "pc":
+                return new Pc("16gig", "i7");
+            case "server":
+                return new Server("100Gig", "j4");
+            default: return null;
+        }
     }
 }

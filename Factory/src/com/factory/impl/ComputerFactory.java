@@ -11,9 +11,9 @@ public class ComputerFactory {
     public Computer getComputer(String type) {
         switch (type){
             case "pc":
-                return new Pc("16gig", "i7");
+                return new Pc("16gig", "i7", "500gigs");
             case "server":
-                return new Server("100Gig", "j4");
+                return new Server("100Gig", "j4", "500tera");
             default: return null;
         }
     }

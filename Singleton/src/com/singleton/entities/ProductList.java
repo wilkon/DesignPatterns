@@ -6,7 +6,7 @@ import java.util.ArrayList;
  * Created by will on 7/28/15.
  */
 public class ProductList {
-    ArrayList<String> productList;
+    private ArrayList<String> productList;
     protected ProductList(){
         this.productList = new ArrayList<String>();
     }
@@ -15,5 +15,8 @@ public class ProductList {
     }
     public void add(String product){
         this.productList.add(product);
+    }
+    public void drop(String product){
+        this.productList.remove(product);
     }
 }

@@ -11,7 +11,15 @@ import static org.junit.Assert.*;
 public class PughTest {
     @Test
     public void isSingleInstance(){
+        assertTrue(PughProd.getPughProdImpl().getProducts().isEmpty());
 
+        PughProd.getPughProdImpl().add("hello");
+        assertTrue(PughProd.getPughProdImpl().getProducts().contains("hello"));
+
+        PughProd.getPughProdImpl().drop("hello");
+        assertFalse(PughProd.getPughProdImpl().getProducts().contains("hello"));
+
+        assertTrue(PughProd.getPughProdImpl().getProducts().isEmpty());
     }
 
 }

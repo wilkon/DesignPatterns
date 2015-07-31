@@ -1,4 +1,4 @@
-package com.factory.entities;
+package com.factory.computer.entities;
 
 /**
  * Created by will on 7/28/15.

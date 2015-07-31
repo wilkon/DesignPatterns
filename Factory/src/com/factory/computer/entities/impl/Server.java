@@ -1,16 +1,16 @@
-package com.factory.entities.impl;
+package com.factory.computer.entities.impl;
 
-import com.factory.entities.Computer;
+import com.factory.computer.entities.Computer;
 
 /**
  * Created by will on 7/28/15.
  */
-public class Pc extends Computer {
+public class Server extends Computer {
     private String RAM;
     private String HDD;
     private String CPU;
 
-    public Pc(String ram, String cpu, String hdd){
+    public Server(String ram, String cpu, String hdd){
         this.RAM = ram;
         this.CPU = cpu;
         this.HDD = hdd;

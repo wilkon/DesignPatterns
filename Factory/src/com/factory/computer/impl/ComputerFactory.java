@@ -1,8 +1,8 @@
-package com.factory.impl;
+package com.factory.computer.impl;
 
-import com.factory.entities.Computer;
-import com.factory.entities.impl.Pc;
-import com.factory.entities.impl.Server;
+import com.factory.computer.entities.impl.Pc;
+import com.factory.computer.entities.impl.Server;
+import com.factory.computer.entities.Computer;
 
 /**
  * Created by will on 7/28/15.

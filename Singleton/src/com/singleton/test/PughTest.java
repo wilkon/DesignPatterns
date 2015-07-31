@@ -1,4 +1,4 @@
-package com.singleton.test.bullpugh;
+package com.singleton.test;
 
 import com.singleton.impl.bullpugh.PughProd;
 import org.junit.Test;

@@ -8,7 +8,7 @@ public class EagerList {
     private EagerList(){
 
     }
-    public EagerList getList(){
+    public static EagerList getList(){
         return productList;
     }
 }

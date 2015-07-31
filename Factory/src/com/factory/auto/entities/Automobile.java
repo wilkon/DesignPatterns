@@ -6,8 +6,8 @@ package com.factory.auto.entities;
 public abstract class Automobile {
     public abstract int getWheels();
     public abstract int getDoors();
-    public abstract String getType();
+    public abstract String getEngineType();
     public String toString(){
-        return "Wheels: " + getWheels() + ", Doors: "+ getDoors() + ", Type: " + getType();
+        return "Wheels: " + getWheels() + ", Doors: "+ getDoors() + ", Engine: " + getEngineType();
     }
 }

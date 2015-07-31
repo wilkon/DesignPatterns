@@ -9,7 +9,7 @@ import com.factory.computer.entities.Computer;
  */
 public class ComputerFactory {
     public Computer getComputer(String type) {
-        switch (type){
+        switch (type.toLowerCase()){
             case "pc":
                 return new Pc("16gig", "i7", "500gigs");
             case "server":

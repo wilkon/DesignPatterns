@@ -26,7 +26,7 @@ public class Truck extends Automobile {
     }
 
     @Override
-    public String getType() {
+    public String getEngineType() {
         return type;
     }
 }
